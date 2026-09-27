@@ -23,9 +23,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "sass": "sass styles/index.scss styles/index.css"
   },
   "dependencies": {
     "tanbal-persian-date": "^1.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.105.0"
   }
 }
